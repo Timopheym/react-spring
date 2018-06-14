@@ -82,7 +82,7 @@ declare module 'react-spring' {
 
   export class Spring<
     S extends object,
-    DS extends object,
+    DS extends object
   > extends PureComponent<SpringProps<S, DS>> {}
 
   export function interpolate(
@@ -151,7 +151,7 @@ declare module 'react-spring' {
 
   export class Transition<
     S extends object,
-    DS extends object,
+    DS extends object
   > extends PureComponent<TransitionProps<S, DS>> {}
 
   type TrailProps<S extends object, DS extends object = {}> = {
@@ -174,7 +174,7 @@ declare module 'react-spring' {
 
   export class Trail<
     S extends object,
-    DS extends object,
+    DS extends object
   > extends PureComponent<TrailProps<S, DS>> {}
 
   type ParallaxProps<S extends object, DS extends object = {}> = {
@@ -189,7 +189,7 @@ declare module 'react-spring' {
 
   export class Parallax<
     S extends object,
-    DS extends object,
+    DS extends object
   > extends PureComponent<ParallaxProps<S, DS>> {}
 
   type ParallaxLayerProps<S extends object, DS extends object = {}> = {
@@ -202,7 +202,7 @@ declare module 'react-spring' {
 
   export class ParallaxLayer<
     S extends object,
-    DS extends object,
+    DS extends object
   > extends PureComponent<ParallaxLayerProps<S, DS>> {}
 
   type KeyframesProps<S extends object, DS extends object = {}> = {
@@ -211,6 +211,6 @@ declare module 'react-spring' {
 
   export class Keyframes<
     S extends object,
-    DS extends object,
+    DS extends object
   > extends Component<KeyframesProps<S, DS>> {}
 }
